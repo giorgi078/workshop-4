@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    padding: 50px;
+    background-color: brown;
+    height: 110px;
+}
+header li a{
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+header ul>:first-child{
+    background-color: blue;
+}
+header ul>:last-child{
+    background-color: green;
+}
+header ul>:nth-child(2){
+    background-color: yellow;
+}
+header ul>:nth-child(3){
+    background-color: blueviolet;
+}
+header ul>:nth-child(4){
+    background-color: black;
+}
+.fa-address-card-icon{
+    text-align: center;
+}
+.fa-address-card{
+    font-size: 100px;
+    color: aqua;
+}
+.math{
+    text-align: center;
+}
+.kvadrati{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 88, 17);
+    margin: 20px;
+    float: right;
+}
+.cont{
+    clear: both;
+}
+.text{
+    width: 300px;
+    float: left;
+}
+.meore{
+    background-color: rgb(29, 196, 57);
+}
+.mesame{
+    background-color: rgb(17, 98, 168);
+}
+.naxevar{
+    width: 95%;
+    padding: 30px;
+    background-color: aqua;
+    clear: both;
+}
+.mesamedi{
+    width: 33.33%;
+    height: 50px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    float: left;
+}
+.surati{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    overflow: hidden;
+}
+.surati img{
+    width: 100%;
+    margin-top: -40px;
+}
+.pirvelixazi{
+    width: 600px;
+    margin: 50px auto;
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 24px;
+}
+.pirvelixazi::first-line{
+    color: blue;
+}
+.pirvelixazi::first-letter{
+    font-size: 50px;
+}
+.pirvelixazi::selection{
+    background-color: green;
+    color: black;
+}
+.pirvelixazi::after{
+    content: url(../img/reflection.png);
+}
+/* .goback::before{
+    content: url(../img/reflection.png);
+} */
+.goback::before{
+    content: "<<  "; 
+    /* css ში არ გვეკრძალება ამ ნიშნების გამოყენება , ამიტომ გამოიყენება before/after
+    ელემენტები , მათი კოდების ძებნა რომ არ მოგვიწიოს */
+}
